@@ -30,6 +30,11 @@ header {
   z-index: 1;
 }
 
+.active{
+  color:blue;
+  font-size: 17px;
+}
+
 .navigation {
   position: relative;
   z-index: 0;
@@ -237,4 +242,36 @@ footer{
 .logo6{
   height: 6rem;
   width: 6rem;
+}
+
+/* Gallery page */
+.galleryPart {
+  height: 100vh;
+  background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
+    url("/png/gallery_bg_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gallery-heading{
+  color: #fff;
+}
+
+.gallery-img{
+  height: 380px;
+  width: 280px;
+  padding: 1rem;
+}
+
+/* the scroll of the rows in gallery */
+.scrollable-row {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.row {
+  flex-wrap: nowrap;
+}
+.scrollable-row::-webkit-scrollbar {
+  width: 0;
 }

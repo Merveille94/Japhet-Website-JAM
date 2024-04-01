@@ -18,3 +18,5 @@ function loadYouTubeVideo() {
     // Append the iframe to the player container
     document.getElementById('player-container').appendChild(iframe);
 }
+
+// For the gallery page
