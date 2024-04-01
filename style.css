@@ -136,7 +136,25 @@ header {
 #services-heading{
   color: #fff;
 }
+
 .services-img{
-  height: 170px;
-  width: 170px;
+  height: 180px;
+  width: 180px;
+}
+
+.services-page{
+  margin-top: 7rem;
+}
+.services-album{
+  border-left: 2px solid #fff;
+  margin-left: 2rem;
+}
+
+.services-img2{
+  max-width: 100%;
+  height: auto;
+}
+
+.service-size{
+  height: 386px;
 }
