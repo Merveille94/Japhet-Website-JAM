@@ -200,3 +200,41 @@ header {
   border-radius: 10px;
   width: 35rem;
 }
+
+/* the forth page */
+.contactPart{
+  height: 100vh;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo4{
+  height: 6rem;
+  width: 6rem;
+  transform: translateY(-45%);
+  z-index: 1;
+}
+
+#contact-heading{
+  color: #3A425D;
+}
+
+
+.icon4 {
+  color: #000;
+  font-size: 2rem;
+}
+/* footer */
+.form-control{
+  background-color:lightgrey;
+}
+
+footer{
+  background-color: #3A425D;
+}
+
+.logo6{
+  height: 6rem;
+  width: 6rem;
+}
