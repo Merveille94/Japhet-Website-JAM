@@ -96,12 +96,47 @@ header {
 }
 
 .logo2{
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   transform: translateY(-25%);
   z-index: 1;
 }
 
 #event-heading{
   color: #3A425D;
+}
+
+.event-text{
+  background-color: #FDEDDB;
+  border-top: 3px solid #E2BB9F;
+  border-bottom: 3px solid #E2BB9F;
+}
+
+.event-img{
+  height: 250px;
+  width: 250px;
+}
+
+/* third page */
+.thirdPart{
+  height: 100vh;
+  background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
+  url("/png/services_bg_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo3{
+  height: 6rem;
+  width: 6rem;
+  transform: translateY(-35%);
+  z-index: 1;
+}
+
+#services-heading{
+  color: #fff;
+}
+.services-img{
+  height: 170px;
+  width: 170px;
 }
