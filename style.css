@@ -163,6 +163,7 @@ header {
   overflow: hidden;
 }
 
+/* the youtube thing */
 .overlay {
   position: absolute;
   top: 0;
@@ -191,4 +192,11 @@ header {
   z-index: 1;
   color: #fff;
   font-size: 204px;
+}
+
+/* the audio */
+.audio-box{
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 35rem;
 }
