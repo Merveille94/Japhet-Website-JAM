@@ -275,3 +275,31 @@ footer{
 .scrollable-row::-webkit-scrollbar {
   width: 0;
 }
+
+.about-img{
+  height: 650px;
+  width: 438px;
+}
+
+/* biography */
+.scroll-biogy {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+/* Style the scrollbar */
+/* .scroll-biogy::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-biogy::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-biogy::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.scroll-biogy::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
