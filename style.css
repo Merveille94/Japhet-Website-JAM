@@ -11,7 +11,7 @@ body {
 .firstPart {
   height: 100vh;
   background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
-    url("https://drive.google.com/file/d/1Q_8TtbNgxn_-v5ii7O4n2xnfZZQlJB74/view?usp=sharing");
+    url("/png/photo_2023-12-13_15-13-11\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
