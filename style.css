@@ -171,7 +171,7 @@ header {
 }
 
 /* the youtube thing */
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -179,7 +179,7 @@ header {
   height: 100%;
   background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6));
   border-radius: 20px;
-}
+} */
 
 #player-container {
   position: absolute;
@@ -191,7 +191,7 @@ header {
   border-radius: 20px;
 }
 
-.play-button {
+/* .play-button {
   position: absolute;
   top: 50%;
   left: 30%;
@@ -199,7 +199,7 @@ header {
   z-index: 1;
   color: #fff;
   font-size: 204px;
-}
+} */
 
 /* the audio */
 .audio-box {
