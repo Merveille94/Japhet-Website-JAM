@@ -240,9 +240,11 @@ footer {
 /* Gallery page */
 .galleryPart {
   height: 100vh;
-  background-color: #fff;
+  background: linear-gradient(rgba(42, 51, 80, 0.9), rgba(42, 51, 80, 0.9)),
+  url("/png/services_bg_img.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #gallery-heading {
@@ -269,8 +271,10 @@ footer {
 }
 
 .about-img {
-  height: 650px;
-  width: 438px;
+  float: left;
+  padding-right: 1rem;
+  height: 250px;
+  width: 238px;
 }
 
 /* biography */
@@ -325,9 +329,17 @@ footer {
     text-decoration: none;
   }
 
+  /* .container-text {
+    margin-top: 1rem;
+  }
+  
+  .container-icon {
+    margin-top: 1rem;
+  } */
+
   .services-img {
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
   }
 
   /* the audio */
@@ -364,7 +376,7 @@ footer {
   }
 
   .btn {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
   }
@@ -423,8 +435,23 @@ footer {
     padding: 0.5rem;
   }
   .gallery-img {
-    height: 14rem;
-    width: 14rem;
-    padding: 1rem;
+    height: 9rem;
+    width: 9rem;
   }
+
+  .logo6 {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+.about-img {
+  height: 10rem;
+  width: 10rem;
+}
+/* biography */
+.scroll-biogy {
+  max-height: 450px;
+  overflow-y: auto;
+}
+  
 }
