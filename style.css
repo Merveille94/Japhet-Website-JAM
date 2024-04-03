@@ -10,7 +10,7 @@ body {
 }
 
 .firstPart {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
     url("/png/photo_2023-12-13_15-13-11\ 1.png");
   background-size: cover;
@@ -67,11 +67,11 @@ header {
 }
 
 .container-text {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .container-icon {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .text {
@@ -92,7 +92,7 @@ header {
 
 /* second page */
 .secondPart {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ header {
 
 /* third page */
 .thirdPart {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
     url("/png/services_bg_img.png");
   background-size: cover;
@@ -191,7 +191,7 @@ header {
 
 /* the forth page */
 .contactPart {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
