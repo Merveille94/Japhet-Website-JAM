@@ -61,7 +61,7 @@ header {
 }
 
 .nav-menu li a {
-  padding: 0.4rem 0.4rem;
+  padding: 0.4rem 0.6rem;
   color: #333;
   text-decoration: none;
 }
@@ -348,7 +348,7 @@ footer {
   }
 
   .event-video-container {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .adjetey-pic {
