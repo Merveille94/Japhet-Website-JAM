@@ -170,7 +170,7 @@ header {
 }
 
 .col1 {
-  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
 }
 
 .event-video {
@@ -185,8 +185,8 @@ header {
 }
 
 .audio-img {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* the forth page */
