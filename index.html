@@ -76,39 +76,36 @@
   <div class="d-flex flex-column align-items-center">
     <img src="/png/JAMlogo.png" alt="logo" class="logo2">
     <div id="event-heading" class="text-center">
-      <p class="h5">Events & Tours</p>
-      <p class="h4">Upcoming Events</p>
+      <p class="h6">Events & Tours</p>
+      <p class="h5">Upcoming Events</p>
     </div>
   </div>
-
-  <div class="container d-flex flex-lg-row flex-md-row flex-sm-row flex-xs-column">
-    <div class="row">
-      <div class="col image-event">  
-        <img src="/png/main_flier.png" class="img-fluid event-img1 p-md-4 p-lg-4" alt="flyer">
-      </div>
-    </div> 
-    <div class="row p-lg-4 p-md-4">
-      <div class="col">
-        <div class="row d-flex flex-column">
-          <div class="col event-text mb-3 mt-3">
+  <div class="container event-section">
+    <div class="row d-flex flex-column flex-lg-row flex-md-row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="row event2-div">
+          <img src="/png/main_flier.png" class="img-fluid event-img1 p-md-4 p-lg-4" alt="flyer">
+            <div class="event-text p-2">
               <h1 class="h5 fw-bold">About Glorious Service</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloremque obcaecati consectetur aperiam vitae.</p>
-          </div>
-          <div class="col d-flex overflow-x-auto mb-3">
-            <img src="/png/photo_2024-02-06_22-45-01 1.png" class="img-fluid event-img me-2 mb-2" alt="flyer 2">
-            <img src="/png/photo_2024-02-06_22-44-49 1.png" class="img-fluid event-img mb-2" alt="flyer 3">
-          </div>
-          <div class="col d-flex flex-column mb-3 p-3">
-            <p class="h5">Reserve a seat at: www.jambooking.com</p>
-            <p class="h5">For enquiries or Sponsorships please contact us:</p>
-            <p class="h5">info@jam.com or (+233) 55 051 7070</p>
-          </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vbcaecati consectetur aperiam vitae.</p>
+            </div>
         </div>
       </div>
+      <div class="row d-flex flex-column col-lg-6 col-md-6 col-sm-12 col-xs-12 event2-div">
+          <div class="col-sm-12 col-xs-12">
+            <img src="/png/photo_2024-02-06_22-45-01 1.png" class="img-fluid event-img mb-2" alt="flyer 2">
+            <img src="/png/photo_2024-02-06_22-44-49 1.png" class="img-fluid event-img mb-2" alt="flyer 3">
+          </div>
+          <div class="col-sm-12 col-xs-12 p-2">
+            <p class="h5">Reservation at: www.jambooking.com
+            For enquiries or Sponsorships please contact us: info@jam.com or (+233) 55 051 7070</p>
+          </div>
+     
+      </div>
     </div>
   </div>
-  </div>
 </section>
+
 
 
 <!-- third page -->
@@ -116,8 +113,8 @@
   <div class="d-flex flex-column align-items-center">
     <img src="/png/JAMlogo.png" alt="logo" class="logo3">
     <div id="services-heading" class="text-center pb-3">
-      <p class="h5">Services</p>
-      <p class="h4">My Musics</p>
+      <p class="h6">Services</p>
+      <p class="h5">My Musics</p>
     </div>
   </div>
 
@@ -135,8 +132,8 @@
         <div class="col"><img src="/png/1 (2).png" alt="flyer 5" class="services-img" onclick="showAudioBox('Song 4', 'Record Label 4')"></div>
         <div class="col"><img src="/png/1 (3).png" alt="flyer 6" class="services-img" onclick="showAudioBox('Song 4', 'Record Label 4')"></div>
       </div>
-      <div class="audio-box mt-2 p-1 d-flex">
-        <img src="/png/1 (1).png" height="50" width="50" alt="pic">
+      <div class="audio-box mt-2 p-1 d-flex d-none d-sm-block">
+        <img src="/png/1 (1).png" class="audio-img" alt="pic">
         <div class="text-light d-flex flex-column ps-4">
           <span>Title of song</span>
           <span>records label</span>
@@ -144,7 +141,7 @@
       </div>
     </div>
 
-    <div class="col">
+    <div class="col event-video-container">
       <h1 class="h5 fw-bold text-white text-center">Album</h1>
       <div class="video-container event-video">
         <iframe id="player-container" src="https://www.youtube.com/embed/fCw_GL_-_DY?autoplay=0&mute=1"></iframe>
@@ -162,20 +159,24 @@
       <p class="h3">Contacts</p>
       <p class="display-4">Reach Out to Japhet Adjetey</p>
     </div>
+    <div class="text-dark">
+      <i class="bi bi-chevron-left"></i>
+      <i class="bi bi-chevron-right"></i>
+  </div>
   </div>
 
   <div class="container">
-    <div class="row d-flex flex-lg-row flex-md-row flex-sm-row flex-column">
-      <div class="col d-flex flex-column">
+    <div class="row d-flex flex-lg-row flex-md-row flex-sm-row flex-row overflow-x-auto">
+      <div class="col d-flex flex-column adjetey-container">
         <img src="/png/2.png" class="adjetey-pic" alt="flyer">
-        <div class="contact-text overflow-auto pt-3">
+        <div class="contact-text pt-3">
             <p class="h5 fw-bold">Japhet Adjetey Ministries</p>
             <p class="h5">Sanctified Music</p>   
             <p class="h5">Contact: 555-555-5555</p>
             <p class="h5">General Inquiry/Booking</p>
             <p class="h5">info@japhetadjeteymin.com</p>
         </div>
-        <div class="icon4 d-flex pt-2">
+        <div class="icon4 d-flex pt-3">
           <a href="https://www.youtube.com/@JaphetAdjeteyOfficial"><i class="icon-color bi bi-youtube"></i></a>
           <a href="https://www.instagram.com/japhetadjetey/?fbclid=IwAR39DJE-K2CJkBK1Jcbh_Y-ioZRcAFtZc3ieWrgjjhp5GS9YHB4Isb7tdyU_aem_AeeQWW3-eD8bHxJqzOVc5Ic1X4782X2fzKkQk8q72ejR8AAPwIOYgOy1NvvNXhfmUvfs4vv7fPWPBAuEN377zWbQ"><i class="icon-color bi bi-instagram mx-3"></i></a>
           <a href="https://web.facebook.com/japhetAadjetey/?_rdc=1&_rdr"><i class="icon-color bi-facebook"></i></a>
@@ -203,7 +204,7 @@
           </div>
           <div class="mb-1">
             <label for="message" class="form-label fs-5">Your message</label>
-            <textarea class="form-control overflow-y-auto" id="message" rows="2" cols="3" placeholder="Enter your message" style="resize: none;"></textarea>
+            <textarea class="form-control overflow-y-auto" id="message" rows="6" cols="5" placeholder="Enter your message" style="resize: none;"></textarea>
           
           <button type="submit" class="btn send-btn mt-1">Send</button></div>
         </form> 

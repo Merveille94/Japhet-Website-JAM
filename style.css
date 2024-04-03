@@ -12,7 +12,7 @@ body {
 .firstPart {
   height: 100vh;
   background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
-              url("/png/photo_2023-12-13_15-13-11\ 1.png");
+    url("/png/photo_2023-12-13_15-13-11\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -100,8 +100,8 @@ header {
 }
 
 .logo2 {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   transform: translateY(-25%);
   z-index: 1;
 }
@@ -116,20 +116,23 @@ header {
   border-bottom: 3px solid #e2bb9f;
   overflow: auto;
 }
+.event-img {
+  max-width: 100%;
+}
 
 /* third page */
 .thirdPart {
-    height: 100vh;
-    background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
+  height: 100vh;
+  background: linear-gradient(rgba(42, 51, 80, 0.6), rgba(42, 51, 80, 0.6)),
     url("/png/services_bg_img.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo3 {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   transform: translateY(-35%);
   z-index: 1;
 }
@@ -142,10 +145,6 @@ header {
   height: 140px;
   width: 140px;
 }
-
-/* .services-album {
-  border-right: 2px solid #fff;
-} */
 
 .services-img2 {
   max-width: 100%;
@@ -170,7 +169,7 @@ header {
   border-radius: 20px;
 }
 
-.col1{
+.col1 {
   border-right: 2px solid #fff;
 }
 
@@ -185,6 +184,11 @@ header {
   width: 15rem;
 }
 
+.audio-img {
+  height: 2rem;
+  width: 2rem;
+}
+
 /* the forth page */
 .contactPart {
   height: 100vh;
@@ -195,8 +199,8 @@ header {
 }
 
 .logo4 {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   transform: translateY(-45%);
   z-index: 1;
 }
@@ -214,7 +218,7 @@ header {
   color: #3a425d;
 }
 
-.adjetey-pic{
+.adjetey-pic {
   height: 250px;
   width: 250px;
 }
@@ -285,7 +289,7 @@ footer {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width:576px) {
+@media (max-width: 576px) {
   header {
     position: relative;
     padding-bottom: 20px;
@@ -293,16 +297,16 @@ footer {
 
   .logo1 {
     position: absolute;
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     transform: translateY(-75%);
     z-index: 0;
   }
-  
+
   .navbar {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 0.4rem 0.1rem;
+    padding: 0.4rem 0.4rem;
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -314,11 +318,49 @@ footer {
     display: flex;
     list-style: none;
   }
-  
+
   .nav-menu li a {
-    padding: 0.3rem 0.1rem;
+    padding: 0.4rem 0.4rem;
     color: #333;
     text-decoration: none;
+  }
+
+  .services-img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  /* the audio */
+  .audio-box {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 17rem;
+  }
+
+  .audio-img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .event-video {
+    height: 240px;
+    width: 360px;
+  }
+
+  .event-video-container {
+    margin-top: 2rem;
+  }
+
+  .adjetey-pic {
+    height: 240px;
+    width: 240px;
+  }
+
+  .adjetey-container {
+    width: 16rem;
+  }
+  form{
+    width: 300px;
   }
 
   .btn {
@@ -330,41 +372,59 @@ footer {
   .container-text {
     margin-top: 7rem;
   }
-  
+
   .container-icon {
     margin-top: 7rem;
   }
 
-  .flex-xs-column{
+  .flex-xs-column {
     flex-direction: column;
   }
 
   .event-img {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .event-text {
+    width: 10rem;
   }
 
   .event-img1 {
     height: 15rem;
-    width: 15rem;
+    width: 12.5rem;
   }
 
-  .flex-xs-column{
+  .event2-div {
+    padding-top: 0.5rem;
+  }
+
+  .event-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .flex-xs-column{
     flex-direction: column;
-  }
+  } */
 
-  .col1{
+  .col1 {
     border-right: 2px solid #ffffff00;
   }
-  .adjetey-pic{
+  .adjetey-pic {
     height: 10rem;
     width: 10rem;
   }
-  .form{
+  .form {
     overflow-y: auto;
   }
-  .send-btn{
+  .send-btn {
     font-size: 1rem;
-    padding:0.5rem;
+    padding: 0.5rem;
+  }
+  .gallery-img {
+    height: 14rem;
+    width: 14rem;
+    padding: 1rem;
   }
 }
