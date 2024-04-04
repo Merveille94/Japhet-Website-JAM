@@ -298,6 +298,23 @@ footer {
   border-radius: 10px;
 }
 
+/* For screens with a width between 1200px and 576px */
+@media only screen and (max-width: 1200px) and (min-width: 576px) {
+  .event-img {
+      width: 10rem; 
+      height: 10rem; 
+  }
+}
+
+/* For screens with a width between 700px and 800px */
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+  .event-img {
+      width: 8.5rem;
+      height: 8.5rem;
+  }
+}
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
 
