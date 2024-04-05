@@ -90,6 +90,49 @@ header {
   font-size: 2rem;
 }
 
+/* for experimentation */
+.container2 {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  /* gap: 10px; */
+}
+
+.carousel {
+  grid-row: 1 / 2;
+}
+
+.container3 {
+  grid-row: 2 / 3;
+}
+
+.container3,
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* gap: 10px; */
+}
+
+.image {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .container3,
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container3,
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+/* end of experimentation */
+
 /* second page */
 .secondPart {
   /* height: 100vh; */
