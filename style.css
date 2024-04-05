@@ -155,8 +155,8 @@ header {
 
 .event-text {
   background-color: #fdeddb;
-  border-top: 3px solid #e2bb9f;
-  border-bottom: 3px solid #e2bb9f;
+  border-top: 2px solid #e2bb9f;
+  border-bottom: 2px solid #e2bb9f;
   /* overflow: auto; */
 }
 .event-img {
@@ -345,13 +345,13 @@ footer {
 /* for experiment  */
 .container1 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  grid-template-rows: repeat(auto-fill, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px,1fr));
+  grid-template-rows: repeat(auto-fill, minmax(370px,1fr));
   gap: 10px;
 }
 
 .grid-item {
-  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
   padding: 10px;
 }
 
