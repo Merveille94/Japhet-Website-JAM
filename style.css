@@ -431,6 +431,8 @@ footer {
     display: flex;
     justify-content: center;
     z-index: 1;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .nav-menu {
