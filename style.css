@@ -61,7 +61,8 @@ header {
 }
 
 .nav-menu li a {
-  padding: 0.4rem 0.6rem;
+  /* padding: .4rem .6rem; */
+  padding: 5px 5px;
   color: #333;
   text-decoration: none;
 }
