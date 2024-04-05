@@ -427,7 +427,7 @@ footer {
 
   .navbar {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 0.4rem 0.4rem;
+    /* padding: 0.4rem 0.4rem; */
     display: flex;
     justify-content: center;
     z-index: 1;
@@ -441,7 +441,7 @@ footer {
   }
 
   .nav-menu li a {
-    padding: 0.4rem 0.4rem;
+    padding: 5px 5px;
     color: #333;
     text-decoration: none;
   }
